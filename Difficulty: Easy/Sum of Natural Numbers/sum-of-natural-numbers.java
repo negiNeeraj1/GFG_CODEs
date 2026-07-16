@@ -6,11 +6,10 @@ class GFG {
         int n = sc.nextInt();
 
         // code here
-        
         int sum=0;
-       for(int i=1;i<=n;i++){
-           sum+=i;
-       }
+        for(int i=1;i<=n;i++){
+            sum+=i;
+        }
         System.out.print(sum);
     }
 }
